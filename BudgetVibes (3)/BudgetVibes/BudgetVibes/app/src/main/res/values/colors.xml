@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bv_primary">#FF9800</color>  <!-- Orange 500 -->
+    <color name="bv_primary_dark">#F57C00</color>  <!-- Orange 700 -->
+    <color name="bv_primary_light">#FFE0B2</color>  <!-- Orange 100 -->
+    <color name="white">#FFFFFFFF</color>  <!-- Fully opaque white -->
+    <color name="bv_white">#FFFFFFFF</color> <!-- BudgetVibe white alias -->
+
+    <!-- BudgetVibe Color Palette -->
+    <color name="bv_orange">#FF9800</color>          <!-- Primary color -->
+    <color name="bv_orange_dark">#F57C00</color>     <!-- Darker primary variant -->
+    <color name="bv_green">#4CAF50</color>           <!-- Secondary color -->
+
+    <!-- Additional colors you might need -->
+    <color name="bv_text_primary">#212121</color>    <!-- Primary text color -->
+    <color name="bv_text_secondary">#757575</color>  <!-- Secondary text color -->
+    <color name="green">#4CAF50</color>
+
+    <!-- Secondary Colors -->
+    <color name="bv_secondary">#7C4DFF</color>  <!-- Deep Purple A200 -->
+    <color name="bv_secondary_dark">#651FFF</color>  <!-- Deep Purple A400 -->
+
+    <!-- Status Colors -->
+    <color name="bv_success">#4CAF50</color>  <!-- Green 500 -->
+    <color name="bv_error">#F44336</color>  <!-- Red 500 -->
+    <color name="bv_warning">#FFC107</color>  <!-- Amber 500 -->
+
+    <!-- Background/Surface Colors -->
+    <color name="bv_background">#FAFAFA</color>  <!-- Gray 50 -->
+    <color name="bv_surface">#FFFFFF</color>  <!-- White -->
+    <color name="bv_surface_variant">#EEEEEE</color>  <!-- Gray 200 -->
+
+    <!-- Text Colors -->
+    <color name="bv_on_primary">#FFFFFF</color>  <!-- White text on primary -->
+    <color name="bv_on_secondary">#FFFFFF</color>  <!-- White text on secondary -->
+    <color name="bv_on_background">#212121</color>  <!-- Almost black -->
+    <color name="bv_on_surface">#212121</color>  <!-- Almost black -->
+    <color name="bv_on_error">#FFFFFF</color>  <!-- White text on error -->
+
+    <!-- Transaction Colors -->
+    <color name="bv_income">#2E7D32</color>  <!-- Dark Green 800 -->
+    <color name="bv_expense">#C62828</color>  <!-- Dark Red 800 -->
+
+    <!-- Card Colors -->
+    <color name="bv_card_primary">#FF9800</color>  <!-- Orange 500 -->
+    <color name="bv_card_secondary">#7C4DFF</color>  <!-- Deep Purple A200 -->
+
+    <!-- Neutral Colors -->
+    <color name="bv_gray_900">#212121</color>
+    <color name="bv_gray_800">#424242</color>
+    <color name="bv_gray_600">#757575</color>
+    <color name="bv_gray_400">#BDBDBD</color>
+    <color name="bv_gray_300">#E0E0E0</color>
+    <color name="bv_gray_200">#EEEEEE</color>
+    <color name="bv_gray_50">#FAFAFA</color>
+
+    <!-- Functional Aliases (for theme compatibility) -->
+    <color name="primaryColor">@color/bv_primary</color>
+    <color name="primaryDarkColor">@color/bv_primary_dark</color>
+    <color name="accentColor">@color/bv_secondary</color>
+    <color name="textPrimary">@color/bv_on_surface</color>
+    <color name="textSecondary">@color/bv_gray_600</color>
+    <color name="textOnPrimary">@color/bv_on_primary</color>
+    <color name="background">@color/bv_background</color>
+    <color name="surface">@color/bv_surface</color>
+    <color name="error">@color/bv_error</color>
+</resources>

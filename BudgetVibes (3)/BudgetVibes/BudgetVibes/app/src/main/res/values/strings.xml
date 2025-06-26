@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">BudgetVibes</string>
+
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account_login">Already have an account? Login</string>
+    <string name="password_requirements">Password Requirements:</string>
+    <string name="password_requirement_1">• Minimum 8 characters in length</string>
+    <string name="password_requirement_2">• Mix of uppercase, lowercase, numbers, and symbols</string>
+    <string name="password_requirement_3">• Passwords should match</string>
+
+    <!-- Login -->
+    <string name="login_title">Login to BudgetVibe</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account_register">Don\'t have an account? Register</string>
+    <string name="cartoon2_image">Decorative cartoon image</string>
+
+    <!-- Subscription -->
+    <string name="choose_your_plan">Choose Your Plan</string>
+    <string name="basic_plan">Basic Plan</string>
+    <string name="price_15">R15</string>
+    <string name="user_month">USER/MONTH</string>
+    <string name="basic_plan_description">One price, no surprises. All the essential features you need.</string>
+    <string name="free_plan">Free Plan</string>
+    <string name="free_plan_description">Includes 3 users, limited features. Perfect for trying BudgetVibe.</string>
+    <string name="next">Next</string>
+
+    <!-- Payment -->
+    <string name="order_overview">ORDER OVERVIEW</string>
+    <string name="select_payment_method">PLEASE SELECT A PAYMENT METHOD</string>
+    <string name="credit_debit_card">CREDIT / DEBIT CARD</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="card_number">Card number</string>
+    <string name="c_vv">CVV</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="paypal">PayPal</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="amex">American Express</string>
+    <string name="visa">Visa</string>
+    <string name="voucher">Voucher</string>
+
+    <!-- Welcome -->
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="welcome_subtitle">Thank you for joining the BudgetVibe family!</string>
+
+    <!-- Dashboard -->
+    <string name="available_balance">Available Balance</string>
+    <string name="send">Send</string>
+    <string name="request">Request</string>
+    <string name="loan">Loan</string>
+    <string name="topup">Topup</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="all">All</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="your_cards">Your Cards</string>
+    <string name="cards_count">2 physical card, 1 virtual card</string>
+    <string name="physical_card">Physical Card</string>
+    <string name="card_holder">CARD HOLDER</string>
+    <string name="expires">EXPIRES</string>
+    <string name="cvv">CVV</string>
+    <string name="card_settings">Card Settings</string>
+    <string name="contactless_payment">Contactless Payment</string>
+    <string name="online_payment">Online Payment</string>
+    <string name="atm_withdrawals">ATM Withdrawals</string>
+
+    <!-- Profile Screen -->
+    <string name="streak_days">Day Streak</string>
+    <string name="badges_earned">Badges Earned</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="security">Security</string>
+    <string name="notifications">Notifications</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="logout">Log Out</string>
+
+    <!-- History Screen -->
+    <string name="transaction_history">Transaction History</string>
+    <string name="filter">Filter</string>
+    <string name="all_transactions">All</string>
+    <string name="income_transactions">Income</string>
+    <string name="expense_transactions">Expenses</string>
+
+    <!-- Credit Cards Screen -->
+    <string name="add_card">Add Card</string>
+    <string name="virtual_card">Virtual Card</string>
+    <string name="card_management">Card Management</string>
+    <string name="freeze_card">Freeze Card</string>
+    <string name="set_limits">Set Limits</string>
+    <string name="view_details">View Details</string>
+    <string name="visa_ending_2864">VISA •••• 2864</string>
+
+    <!-- Add Expense Screen -->
+    <string name="add_expense">Add Expense</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select date</string>
+    <string name="description">Description</string>
+    <string name="optional">Optional</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="receipt">Receipt</string>
+    <string name="add_receipt_photo">Add receipt photo</string>
+    <string name="save_expense">Save Expense</string>
+
+    <!-- Rewards & Badges -->
+    <string name="rewards_gallery">Rewards Gallery</string>
+    <string name="redeem_vouchers">Redeem Vouchers</string>
+    <string name="badge_saver">Savings Champion</string>
+    <string name="badge_saver_desc">Saved R1000+ this month</string>
+    <string name="badge_trendsetter">Investment Guru</string>
+    <string name="badge_trendsetter_desc">Maintained 3+ investments</string>
+    <string name="badge_budget_pro">Budget Master</string>
+    <string name="badge_budget_pro_desc">Stayed under budget 3 months straight</string>
+    <string name="badge_early_bird">Early Bird</string>
+    <string name="badge_early_bird_desc">Paid all bills before due date</string>
+    <string name="badge_philanthropist">Generous Heart</string>
+    <string name="badge_philanthropist_desc">Donated to 3+ causes</string>
+    <string name="progress_to_unlock">Progress to unlock:</string>
+    <string name="earned">Earned!</string>
+    <string name="voucher_value">R50 Voucher</string>
+    <string name="badge_tier_bronze">Bronze</string>
+    <string name="badge_tier_silver">Silver</string>
+    <string name="badge_tier_gold">Gold</string>
+    <string name="unlock_requirements">Unlock Requirements:</string>
+    <string name="voucher_rewards">Voucher Rewards:</string>
+
+    <!-- Badge Categories -->
+    <string name="category_saving">Savings</string>
+    <string name="category_investing">Investing</string>
+    <string name="category_budgeting">Budgeting</string>
+    <string name="category_payments">Payments</string>
+    <string name="category_community">Community</string>
+
+    <!-- Voucher Redemption -->
+    <string name="available_vouchers">Available Vouchers</string>
+    <string name="redeem_now">Redeem Now</string>
+    <string name="voucher_expiry">Expires: %1$s</string>
+    <string name="voucher_redeemed">Voucher Redeemed!</string>
+    <string name="voucher_code">Code: %1$s</string>
+    <string name="no_vouchers">No vouchers yet. Earn badges to get vouchers!</string>
+
+    <!-- Achievement Messages -->
+    <string name="achievement_unlocked">Achievement Unlocked!</string>
+    <string name="new_badge_message">You earned the %1$s badge!</string>
+    <string name="new_voucher_message">You unlocked a %1$s voucher!</string>
+
+    <!-- Progress Indicators -->
+    <string name="progress_format">%1$d/%2$d</string>
+    <string name="level_up">Level Up!</string>
+
+    <!-- Empty States -->
+    <string name="empty_badges">Earn your first badge by saving money!</string>
+    <string name="empty_transactions">No transactions yet</string>
+    <string name="empty_cards">Add your first payment card</string>
+
+    <!-- Toolbar -->
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+
+    <string name="edit_profile">Edit Profile </string>
+    <string name="select_category">Select Category</string>
+
+
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="cards">Cards</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username_">Username</string>
+</resources>

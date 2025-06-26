@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UI.GraphActivity">
+
+    <TextView
+        android:id="@+id/levelText"
+        android:text="level: 1 (XP: 0/100)"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <ProgressBar
+        android:id="@+id/xpProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:progress="0"
+        android:max="100"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/minBudgetInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter minimum budget"
+        android:layout_marginBottom="8dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/maxBudgetInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter maximum budget"
+        android:layout_marginBottom="8dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/setBudgetBtn"
+        android:text="Set Budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText for expense input -->
+    <EditText
+        android:id="@+id/expenseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter expense amount"
+        android:layout_marginBottom="8dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Button for adding the expense -->
+    <Button
+        android:id="@+id/addExpenseBtn"
+        android:text="Add Expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/congratsBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/congrats_badge"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

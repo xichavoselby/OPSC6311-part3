@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light theme -->
+    <style name="Base.Theme.BudgetVibes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bv_orange</item>
+        <item name="colorPrimaryVariant">@color/bv_orange_dark</item>
+        <item name="colorOnPrimary">@color/bv_white</item>
+        <item name="colorSecondary">@color/bv_green</item>
+        <item name="colorOnSecondary">@color/bv_white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.BudgetVibes" parent="Base.Theme.BudgetVibes" />
+</resources>
